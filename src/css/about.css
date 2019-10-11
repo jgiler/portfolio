@@ -1,0 +1,64 @@
+.hero {
+  width: 100%;
+  height: 800px;
+  background: linear-gradient(0deg, #fff, transparent 10%),
+    url(http://getwallpapers.com/wallpaper/full/d/7/3/369465.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* position: relative; */
+  padding-top: 80px;
+}
+
+h1 {
+  font: 100px sans-serif;
+  margin: 90px auto 0px;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-size: 50px;
+  margin: 20px auto 20px;
+  text-align: center;
+}
+
+.pic {
+  display: block;
+  height: 200px;
+  width: 250px;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro {
+  text-align: center;
+  margin: 30px 20%;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.list {
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.links {
+  margin: 20px;
+}
+
+.react {
+  display: inline-block;
+  margin: 0 10px;
+  width: 70px;
+  height: 60px;
+}
+
+.logos {
+  text-align: center;
+}
+
