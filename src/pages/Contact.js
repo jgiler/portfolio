@@ -4,13 +4,13 @@ import '../css/contact.css'
 const Contact = () => (
   <React.Fragment>
     <div className='container'>
+      <div className='contacthero'>
       <h1 className='contactme'>Contact Me!</h1>
+      </div>
       <p>
-        Please Feel Free to reach out to me in my social media links, my email,
-        or my cell-phone number!
+        Please Feel Free to reach out to me in my social media links or my email!
       </p>
       <p className="email">jonathangiler@hotmail.com</p>
-      <p className="cell">980-253-9548</p>
     </div>
   </React.Fragment>
 );

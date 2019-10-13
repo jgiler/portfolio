@@ -3,8 +3,8 @@ import '../css/portfolio.css'
 
 const Portfolio = () => (
   <div>
-    <div>
-      <h1 className='portfolioheader'>Deeds</h1>
+    <div className='portfoliohero'>
+      <h1 className='portfolioheader'>Portfolio</h1>
     </div>
     <div>
       <ul>
