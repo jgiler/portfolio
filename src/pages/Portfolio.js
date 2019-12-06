@@ -1,19 +1,31 @@
 import React from "react";
-import '../css/portfolio.css'
+import "../css/portfolio.css";
 
 const Portfolio = () => (
   <div>
-    <div className='portfoliohero'>
-      <h1 className='portfolioheader'>Portfolio</h1>
+    <div className="portfoliohero">
+      <h1 className="portfolioheader">Portfolio</h1>
     </div>
     <div>
       <ul>
+      <li className="links">
+          <a
+            className="list"
+            href="https://codepen.io/jonathan-giler/project/editor/XYpNkz"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="gateway"
+          >
+            Gateway Project
+          </a>
+        </li>
         <li className="links">
           <a
             className="list"
             href="https://github.com/jgiler/guessing-game"
             target="_blank"
-            aria-label='guessing game'
+            rel="noopener noreferrer"
+            aria-label="guessing game"
           >
             Guessing Game
           </a>
@@ -23,7 +35,8 @@ const Portfolio = () => (
             className="list"
             href="https://github.com/jgiler/calculator"
             target="_blank"
-            aria-label='github'
+            rel="noopener noreferrer"
+            aria-label="github"
           >
             Javascript Calculator
           </a>
@@ -33,7 +46,8 @@ const Portfolio = () => (
             className="list"
             href="https://github.com/jgiler/node-api-endpoints"
             target="_blank"
-            aria-label='node'
+            rel="noopener noreferrer"
+            aria-label="node"
           >
             Node API Endpoints
           </a>
@@ -43,14 +57,20 @@ const Portfolio = () => (
             className="list"
             href="https://codepen.io/collection/XEvLLm/"
             target="_blank"
-            aria-label='code pen'
+            rel="noopener noreferrer"
+            aria-label="code pen"
           >
             First Week React
           </a>
         </li>
         <li className="links">
-          <a className="list" href="https://github.com/jgiler/comment-form"
-          aria-label='comment form'>
+          <a
+            className="list"
+            href="https://github.com/jgiler/comment-form"
+            target='_blank'
+            rel='noopener noreferrer'
+            aria-label="comment form"
+          >
             Comment Form
           </a>
         </li>

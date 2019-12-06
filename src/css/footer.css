@@ -1,5 +1,5 @@
 footer {
-    height: 140px;
+    height: 180px;
     background-color: #222;
     padding-top: 5px;
     text-align: center;
@@ -8,6 +8,10 @@ footer {
   
   footer a {
     color: white;
+  }
+
+  footer ul li {
+    margin-top: 20px;
   }
   
   footer ul li a:hover {

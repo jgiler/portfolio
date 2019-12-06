@@ -2,6 +2,7 @@
 
 .contactme {
     color: white;
+    font-size: 90px;
 }
 
 .email {
@@ -12,7 +13,7 @@
     width: 100%;
     height: 800px;
     background: linear-gradient(0deg, #fff, transparent 10%),
-    url(http://getwallpapers.com/wallpaper/full/a/3/c/369745.jpg);    
+    url('../img//moonlight.jpg');    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
