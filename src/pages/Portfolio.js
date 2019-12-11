@@ -2,81 +2,180 @@ import React from "react";
 import "../css/portfolio.css";
 
 const Portfolio = () => (
-  <div>
+  <React.Fragment>
     <div className="portfoliohero">
       <h1 className="portfolioheader">Portfolio</h1>
     </div>
-    <div>
-      <ul>
-      <li className="links">
+    <div className="row">
+      <div className="column">
+        <div className="card">
           <a
-            className="list"
             href="https://codepen.io/jonathan-giler/project/editor/XYpNkz"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="gateway"
+            className="anchor"
           >
-            Gateway Project
+            <img
+              src={require("../img/gateway.png")}
+              alt="gateway codepen"
+              className="cardimg"
+            />
+            <div className="container">
+              <h4 className="text">
+                <b>Road to Hire Gateway Project</b>
+              </h4>
+              <p className="text">It all started here.</p>
+            </div>
           </a>
-        </li>
-        <li className="links">
+        </div>
+      </div>
+      <div className="column">
+        <div className="card">
           <a
-            className="list"
-            href="https://github.com/jgiler/guessing-game"
+            href="https://ecom-mobile.herokuapp.com/"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="guessing game"
+            className="anchor"
           >
-            Guessing Game
+            <img
+              src={require("../img/ecom.png")}
+              alt="ecommerce website"
+            />
+            <div className="container">
+              <h4 className="text">
+                <b>Ecommerce Mobile App</b>
+              </h4>
+              <p className="text">Most relaxing store.</p>
+            </div>
           </a>
-        </li>
-        <li className="links">
+        </div>
+        <a
+          href="https://github.com/jgiler/ecom-mobile"
+          className="icon"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={require("../img/github.png")}
+            alt="github"
+            className="git"
+          />
+        </a>
+      </div>
+      <div className="column">
+        <div className="card">
           <a
-            className="list"
-            href="https://github.com/jgiler/calculator"
+            href="https://github.com/Code2Hire/submit-weeklychallenges-r2h-2019-jgiler/blob/master/mysqlChallenges/hard/hard.sql"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="github"
+            className="anchor"
           >
-            Javascript Calculator
+            <img
+              src={require("../img/mysql.png")}
+              alt="MySQL logo"
+              
+            />
+            <div className="container">
+              <h4 className="text">
+                <b>MySQL Challenges</b>
+              </h4>
+              <p className="text">Database CRUD.</p>
+            </div>
           </a>
-        </li>
-        <li className="links">
-          <a
-            className="list"
-            href="https://github.com/jgiler/node-api-endpoints"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="node"
-          >
-            Node API Endpoints
-          </a>
-        </li>
-        <li className="links">
-          <a
-            className="list"
-            href="https://codepen.io/collection/XEvLLm/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="code pen"
-          >
-            First Week React
-          </a>
-        </li>
-        <li className="links">
-          <a
-            className="list"
-            href="https://github.com/jgiler/comment-form"
-            target='_blank'
-            rel='noopener noreferrer'
-            aria-label="comment form"
-          >
-            Comment Form
-          </a>
-        </li>
-      </ul>
+        </div>
+      </div>
     </div>
-  </div>
+    <div className="row">
+      <div className="column">
+        <div className="card">
+          <a
+            href="https://github.com/Code2Hire/submit-weeklychallenges-r2h-2019-jgiler/tree/master/node-challenges/med-hard"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="anchor"
+          >
+            <img
+              src={require("../img/node.png")}
+              alt="Node and Express logo"
+              className="cardimg"
+            />
+            <div className="container">
+              <h4 className="text">
+                <b>Node and Express</b>
+              </h4>
+              <p className="text">Express API and CRUD functionality.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div className="column">
+        <div className="card">
+          <a
+            href="https://github.com/Code2Hire/submit-weeklychallenges-r2h-2019-jgiler/tree/master/cssChallenges/medium"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="anchor"
+          >
+            <img
+              src={require("../img/grid.png")}
+              alt="Toy Grid Website"
+            />
+            <div className="container">
+              <h4 className="text">
+                <b>CSS Grid Challenge</b>
+              </h4>
+              <p className="text">My first time using grid.</p>
+            </div>
+          </a>
+        </div>
+        <a
+          href="https://github.com/jgiler/ecom-mobile"
+          className="icon"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={require("../img/github.png")}
+            alt="github"
+            className="git"
+          />
+        </a>
+      </div>
+      <div className="column">
+        <div className="card">
+          <a
+            href="https://github.com/Code2Hire/submit-weeklychallenges-r2h-2019-jgiler/blob/master/mysqlChallenges/hard/hard.sql"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="anchor"
+          >
+            <img
+              src={require("../img/guessinggame.jpg")}
+              alt="Guessing Game"
+            />
+            <div className="container">
+              <h4 className="text">
+                <b>Numbers Guessing Game</b>
+              </h4>
+              <p className="text">Made with React JS.</p>
+            </div>
+          </a>
+        </div>
+        <a
+          href="https://github.com/Code2Hire/submit-weeklychallenges-r2h-2019-jgiler/blob/master/mysqlChallenges/hard/hard.sql"
+          className="icon"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={require("../img/github.png")}
+            alt="github"
+            className="git"
+          />
+        </a>
+      </div>
+    </div>
+  </React.Fragment>
 );
 
 export default Portfolio;

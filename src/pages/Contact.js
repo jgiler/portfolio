@@ -3,7 +3,7 @@ import "../css/contact.css";
 
 const Contact = () => (
   <React.Fragment>
-    <div className="container">
+    <div className="contactcontainer">
       <div className="contacthero">
         <h1 className="contactme">Contact Me!</h1>
       </div>
@@ -16,7 +16,7 @@ const Contact = () => (
         <p className="email">jonathangiler@hotmail.com</p>
       </div>
 
-      <h3>Thank you for your time!</h3>
+      <h3 className='thankyou'>Thank you for your time!</h3>
     </div>
   </React.Fragment>
 );

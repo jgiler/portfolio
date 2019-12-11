@@ -4,10 +4,10 @@ import "../css/about.css";
 const AboutMe = () => (
   <React.Fragment>
     <div className="homehero">
-      <h1>Jonathan Giler</h1>
+      <h1 className='name'>Jonathan Giler</h1>
     </div>
     <div>
-      <h2>About Me</h2>
+      <h2 className='aboutme'>About Me</h2>
     </div>
     <div>
       <img

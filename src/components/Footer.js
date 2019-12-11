@@ -4,7 +4,7 @@ import "../css/footer.css";
 
 const Footer = () => (
   <React.Fragment>
-    <footer>
+    <footer className='footer'>
       <ul>
         <li>
           <a

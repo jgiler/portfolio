@@ -4,7 +4,7 @@ import '../css/nav.css'
 
 const Nav = () => (
   <div className="main-header">
-    <nav class='navList'>
+    <nav className='navList'>
       <NavLink className="link" exact to="/">About me</NavLink>
       <NavLink className='link' exact to='/portfolio'>Portfolio</NavLink>
       <NavLink className='link' exact to='/contact'>Contact Me</NavLink>
