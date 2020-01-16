@@ -142,7 +142,7 @@ const Portfolio = () => (
       <div className="column">
         <div className="card">
           <a
-            href="https://github.com/Code2Hire/submit-weeklychallenges-r2h-2019-jgiler/blob/master/mysqlChallenges/hard/hard.sql"
+            href="https://github.com/jgiler/guessing-game/tree/master/my-app"
             target="_blank"
             rel="noopener noreferrer"
             className="anchor"
