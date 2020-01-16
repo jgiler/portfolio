@@ -112,21 +112,21 @@ const Portfolio = () => (
       <div className="column">
         <div className="card">
           <a
-            href="https://github.com/Code2Hire/submit-weeklychallenges-r2h-2019-jgiler/tree/master/cssChallenges/medium"
+            href="https://github.com/jgiler/friends"
             target="_blank"
             rel="noopener noreferrer"
             className="anchor"
           >
             <img
-              src={require("../img/grid.png")}
-              alt="Toy Grid Website"
+              src={require('../img/friends.png')}
+              alt="Cartoon Friends Website"
               className="cardimg"
             />
             <div className="container">
               <h4 className="text">
-                <b>CSS Grid Challenge</b>
+                <b>Friends List</b>
               </h4>
-              <p className="text">My first time using grid.</p>
+              <p className="text">Interactive Friends List Website. React Js.</p>
             </div>
           </a>
         </div>
