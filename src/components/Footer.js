@@ -15,15 +15,6 @@ const Footer = () => (
             aria-label="linkedin"
           ></a>
         </li>
-        <li>
-          <a
-            href="https://www.instagram.com/jonathangiler/"
-            target="_blank"
-            rel='noopener noreferrer'
-            className="fa fa-instagram"
-            aria-label="instagram"
-          ></a>
-          </li>
           <li>
             <a
               href="https://github.com/jgiler"
@@ -33,15 +24,6 @@ const Footer = () => (
               aria-label="github"
             ></a>
           </li>
-        <li>
-          <a
-            href="https://www.facebook.com/jonathan.giler.9"
-            target="_blank"
-            rel='noopener noreferrer'
-            className="fa fa-facebook"
-            aria-label="facebook"
-          ></a>
-        </li>
       </ul>
       <p className="copyright">Copyright by <a target="_blank"  rel='noopener noreferrer' href="https://github.com/jgiler">Jonathan Giler</a></p>
     </footer>
