@@ -112,7 +112,7 @@ const Portfolio = () => (
       <div className="column">
         <div className="card">
           <a
-            href="https://github.com/jgiler/friends"
+            href="http://cartoon-friends.herokuapp.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="anchor"
@@ -131,7 +131,7 @@ const Portfolio = () => (
           </a>
         </div>
         <a
-          href="https://github.com/jgiler/ecom-mobile"
+          href="https://github.com/jgiler/friends"
           className="icon"
           target="_blank"
           rel="noopener noreferrer"
@@ -142,7 +142,7 @@ const Portfolio = () => (
       <div className="column">
         <div className="card">
           <a
-            href="https://github.com/jgiler/guessing-game/tree/master/my-app"
+            href="https://guessing-game7.herokuapp.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="anchor"
@@ -157,7 +157,7 @@ const Portfolio = () => (
           </a>
         </div>
         <a
-          href="https://github.com/Code2Hire/submit-weeklychallenges-r2h-2019-jgiler/blob/master/mysqlChallenges/hard/hard.sql"
+          href="https://github.com/jgiler/guessing-game/tree/master/my-app"
           className="icon"
           target="_blank"
           rel="noopener noreferrer"
