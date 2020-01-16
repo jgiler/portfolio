@@ -1,6 +1,6 @@
 .homehero {
   width: 100%;
-  height: 800px;
+  height: 500px;
   background: linear-gradient(0deg, #fff, transparent 10%),
     url('../img/mountain-night.jpg');
   background-size: cover;
@@ -12,9 +12,10 @@
 
 .name {
   font: 100px sans-serif;
-  margin: 90px auto 0px;
+  margin: 200px auto 0px;
   text-align: center;
   color: white;
+  text-shadow: 2px 2px black;
 }
 
 .aboutme {
@@ -25,16 +26,21 @@
 
 .pic {
   display: block;
-  height: 200px;
+  height: 250px;
   width: 250px;
   border-radius: 100%;
   margin-left: auto;
+  border: solid 8px white;
   margin-right: auto;
+  position: absolute;
+  top: 600px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .intro {
   text-align: center;
-  margin: 30px 20%;
+  margin: 200px 20% 5%;
   font-size: 20px;
   line-height: 30px;
 }

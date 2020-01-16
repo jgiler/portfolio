@@ -1,12 +1,8 @@
 .contactme {
   font: 100px sans-serif;
-  margin: 90px auto 0px;
+  margin: 280px auto 0px;
   text-align: center;
   color: white;
-}
-
-.email {
-  margin-top: 20px;
 }
 
 .contacthero {
@@ -23,12 +19,27 @@
 
 .reachout {
   margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .reachout h2 {
   font-size: 50px;
   margin: 40px auto 30px;
   text-align: center;
+}
+.reachout a {
+margin-top: 20px;
+text-decoration: none;
+background: #222;
+border-radius: 3px;
+padding: 10px 15px;
+color:white;
+}
+
+.reachout a:hover{
+  background-color: #555;
 }
 
 .thankyou {

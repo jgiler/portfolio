@@ -39,6 +39,7 @@ const Portfolio = () => (
           >
             <img
               src={require("../img/ecom.png")}
+              className="cardimg"
               alt="ecommerce website"
             />
             <div className="container">
@@ -56,7 +57,7 @@ const Portfolio = () => (
           rel="noopener noreferrer"
         >
           <img
-            src={require("../img/github.png")}
+            src={require("../img/Octocat.jpg")}
             alt="github"
             className="git"
           />
@@ -73,7 +74,7 @@ const Portfolio = () => (
             <img
               src={require("../img/mysql.png")}
               alt="MySQL logo"
-              
+              className="cardimg"
             />
             <div className="container">
               <h4 className="text">
@@ -119,6 +120,7 @@ const Portfolio = () => (
             <img
               src={require("../img/grid.png")}
               alt="Toy Grid Website"
+              className="cardimg"
             />
             <div className="container">
               <h4 className="text">
@@ -134,11 +136,7 @@ const Portfolio = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
-            src={require("../img/github.png")}
-            alt="github"
-            className="git"
-          />
+          <img src={require("../img/Octocat.jpg")} alt="github" className="git" />
         </a>
       </div>
       <div className="column">
@@ -149,10 +147,7 @@ const Portfolio = () => (
             rel="noopener noreferrer"
             className="anchor"
           >
-            <img
-              src={require("../img/guessinggame.jpg")}
-              alt="Guessing Game"
-            />
+            <img src={require("../img/guessinggame.jpg")} alt="Guessing Game" className='cardimg'/>
             <div className="container">
               <h4 className="text">
                 <b>Numbers Guessing Game</b>
@@ -167,11 +162,7 @@ const Portfolio = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
-            src={require("../img/github.png")}
-            alt="github"
-            className="git"
-          />
+          <img src={require("../img/Octocat.jpg")} alt="github" className="git" />
         </a>
       </div>
     </div>

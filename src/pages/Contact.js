@@ -13,7 +13,7 @@ const Contact = () => (
           Please Feel Free to reach out to me in my social media links or my
           email!
         </p>
-        <p className="email">jonathangiler@hotmail.com</p>
+        <a href='mailto:jonathangiler@hotmail.com?Subject=Checked%20Your%20Portfolio' target='_top'>Send Email</a>
       </div>
 
       <h3 className='thankyou'>Thank you for your time!</h3>

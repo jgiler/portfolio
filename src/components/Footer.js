@@ -43,7 +43,7 @@ const Footer = () => (
           ></a>
         </li>
       </ul>
-      <p className="copyright">Last Updated: Oct 11, 2019</p>
+      <p className="copyright">Copyright by <a target="_blank"  rel='noopener noreferrer' href="https://github.com/jgiler">Jonathan Giler</a></p>
     </footer>
   </React.Fragment>
 );

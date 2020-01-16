@@ -7,9 +7,6 @@ const AboutMe = () => (
       <h1 className='name'>Jonathan Giler</h1>
     </div>
     <div>
-      <h2 className='aboutme'>About Me</h2>
-    </div>
-    <div>
       <img
         className="pic"
         src={require("../img/headshot.jpg")}
@@ -25,6 +22,7 @@ const AboutMe = () => (
         mom next to an abacus. I am currently in the middle of a rigorous training academy called Road to Hire. It's a six month long program geared to taking young adults with little to no coding experience and transforming them into technicallly skilled professionals ready for the workforce.
       </p>
     </div>
+    <hr/>
     <div className='skills'>
       <h2>Skills</h2>
       <div className="logos">
@@ -35,7 +33,7 @@ const AboutMe = () => (
         />
         <img
           className="react"
-          src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png"
+          src="http://pluspng.com/img-png/nodejs-logo-png-node-js-development-296.png"
           alt="nodeJS-logo"
         />
         <img
